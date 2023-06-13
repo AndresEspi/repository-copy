@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <nav id="navbar">
+        <h1 id="title">Title</h1>
+        <p id="description">a little description</p>
+        <form id="survey-form">
+            <label id="name-label">name</label>
+            <br>
+            <input id="name" type="text" placeholder="Enter your name" required/>
+            <br>
+            <label id="email-label">email</label>
+            <br>
+            <input id="email" type="email" placeholder="Enter your email" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required />
+            <br>
+            <label id="number-label">number</label>
+            <br>
+            <input id="number" min="5" max="7" type="number" placeholder="Enter your number" pattern="[0-9]" required />
+            <br>
+            <p>Form</p>
+            <select id="dropdown" name="" required>
+                <option disabled selected value="choose an option"></option>
+                <option value="first option">first option</option>
+                <option value="second option">second option</option>
+                <option value="third option">third option</option>
+            </select>
+            <br>
+            <p>Form2</p>
+            <label>
+                <input name="options"  value="first option" type="radio" checked /> First option
+            </label>
+            <br>
+            <label>
+                <input name="options"  value="second option" type="radio" checked /> second option
+            </label>
+            <br>
+            <label>
+                <input name="options"  value="third option" type="radio" checked /> third option
+            </label>
+            <br>  
+            <p>form3</p>
+            <p>select several</p>
+            <label>
+                <input name="optionsChecked" type="checkbox" value="option1"   /> 1 option
+            </label>
+            <br>   
+            <label>
+                <input name="optionsChecked" type="checkbox" value="option2"   /> 2 option
+            </label>
+            <br>  
+            <label>
+                <input  name="optionsChecked" type="checkbox" value="option3"  /> 3 option
+            </label>
+            <br>  
+            <label>
+                <input name="optionsChecked" type="checkbox" value="option4"   /> 4 option
+            </label>
+            <br>  
+            <label>
+                <input name="optionsChecked" type="checkbox"  value="option5"   /> 5 option
+            </label>
+            <br>  
+            <!---->
+            <p>Comments</p>
+            <textarea id="comments" name="comments" placeholder="comments">
+            </textarea>
+            <br>
+            <p>Submit</p>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+
+
+    <script  src="js/index.js"></script>
+</body>
+</html>
